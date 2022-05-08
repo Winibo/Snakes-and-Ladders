@@ -1,0 +1,23 @@
+build:
+   stage: build
+   script:
+      - make compileProject
+
+staticTest:
+   stage: test
+   script:
+      - make static
+
+styleTest:
+   stage: test
+   script:
+      - make style
+
+docs:
+   stage: deploy
+   script:
+      - make docs
+   artifacts:
+      paths:
+         - docs
+      expire_in: 14 days

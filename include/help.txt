@@ -1,0 +1,17 @@
+Chutes and Ladders Rules:
+Goal: Be the first player to reach space 50 on the board.
+On a player's turn, they roll the die and move that many spaces
+If a players roll would put them past space 50, they do not move
+  Ex:
+    A player on space 45 rolls a 6, this would put them on space 51
+    Since this is past space 50, the player does not move
+    The game then continues to the next players turn
+If a player lands on the start of a chute or a ladder, they move to the
+end of that chute or ladder before ending their turn
+  Ex:
+    If there is a chute on space 8. that leads to space 3
+    then when a player lands on space 8, they follow the chute to space 3
+    If there were a ladder on space 1 that leads to space 19
+    then when a player lands on space 1, they follow the ladder to space 19
+Nothing occurs if the player lands on the end of a chute or ladder
+Once a player has moved, their turn is over
